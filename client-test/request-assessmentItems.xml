@@ -1,5 +1,0 @@
-<WTLServiceRequest ClientID="Venture1144" RefId="20091211-393" bogusattr="true">
-    <AssessmentItemsRequest NumOfItems="2">
-        <Student RefId="dooley@pearsonkt.com" Name="Scott Dooley" GradeLevel="10" />
-    </AssessmentItemsRequest>
-</WTLServiceRequest>
