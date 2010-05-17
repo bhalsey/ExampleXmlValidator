@@ -1,2 +1,3 @@
-simple example demonstrating the use of the XmlValidator plugin
+Simple example demonstrating the use of the XmlValidator plugin.
 See the CarController for the example usage.
+The client-test directory contains a set of scripts that test the CarController with curl.
