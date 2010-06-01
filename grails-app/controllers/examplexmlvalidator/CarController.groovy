@@ -27,9 +27,6 @@ class CarController {
 	try {
 	    def xml = request.XML(carRecordsSchema)
 
-	    // test that we actually cached our xml object
-	    xml = request.XML
-
 	    int count = 0
 	    xml.car.each { car ->
 		log.warn "Adding car of make ${car.@make}"
@@ -53,9 +50,6 @@ class CarController {
     def addValidateSchemaFile = {
 	try {
 	    def xml = request.XML("/xsd/car-records.xsd")
-
-	    // test that we actually cached our xml object
-	    xml = request.XML
 
 	    int count = 0
 	    xml.car.each { car ->
